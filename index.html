@@ -177,6 +177,56 @@
   line-height: 1.4;
 }
 
+    .code-section {
+  max-width: 750px;
+  margin: 2rem auto;
+  font-family: system-ui, sans-serif;
+}
+
+.code-section h3 {
+  font-size: 1.6rem;
+  color: #1f2937;
+  margin-bottom: 1rem;
+}
+
+.repo-card {
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 1.5rem 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.04);
+}
+
+.repo-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}
+
+.github-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.6rem;
+}
+
+.repo-link {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2563eb;
+  text-decoration: none;
+}
+
+.repo-link:hover {
+  text-decoration: underline;
+}
+
+.repo-description {
+  font-size: 1rem;
+  color: #374151;
+  line-height: 1.5;
+}
+
+
   </style>
 </head>
 <body>
@@ -195,6 +245,7 @@
   <a href="#research">Research</a>
   <a href="#publications">Publications</a>
   <a href="#teaching">Teaching</a>
+  <a href="#software">Software</a>
 </nav>
 
 <section id="research">
@@ -381,6 +432,27 @@
     <li>Low-rank approximation und neuronale Netzwerke (TU Berlin)</li>
   </ul>
 </section>
+
+
+</section>
+
+  <section id="software">
+<div class="code-section">
+  <h2>Code & Software</h2>
+  <div class="repo-card">
+    <div class="repo-header">
+      <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub logo" class="github-icon">
+      <a href="https://github.com/Priusds/ParGeo" target="_blank" class="repo-link">Priusds/ParGeo</a>
+    </div>
+    <p class="repo-description">
+      A Python package for the flexible design of composite materials for FEM simulations. 
+      Easily define complex geometries and generate representative samples for numerical analysis.
+    </p>
+  </div>
+</div>
+</section>
+
+  
 
 <footer>
   <p class="small">© 2025 Robert Gruhlke | Powered by GitHub Pages</p>
